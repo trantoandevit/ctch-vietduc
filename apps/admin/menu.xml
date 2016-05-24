@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<root>
+    <menus>
+    
+        <!-- Dashboard-->
+
+        <category  category_code="dashboard" >
+            <category_name><![CDATA[Dashboard]]></category_name>
+        </category>
+        <!-- quan tri noi dung -->
+        <category>
+            <category_name><![CDATA[content management]]></category_name>
+            <!-- chuyen muc -->
+            <item code="QL_DANH_SACH_CHUYEN_MUC">
+                <name>category</name>
+                <modules>category</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>glyphicon glyphicon-folder-close</icon>
+            </item>
+            <!-- tin bai -->
+            <item code="QL_DANH_SACH_TIN_BAI">
+                <name>article</name>
+                <modules>article</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-file-o fa-fw</icon>
+            </item>
+            <!-- noi bat -->
+            <item code="QL_DANH_SACH_NOI_BAT">
+                <name>sticky</name>
+                <modules>sticky</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>glyphicon glyphicon-star-empty</icon>
+            </item>
+            <!-- tin tieu diem -->
+<!--            <item code="QL_DANH_SACH_VI_TRI_TIEU_DIEM">
+                <name>spotlight</name>
+                <modules>spotlight</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-file-text-o fa-fw</icon>
+            </item>-->
+            <!-- menu -->
+            <item code="QL_DANH_SACH_MENU">
+                <name>menu</name>
+                <modules>menu</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-list fa-fw</icon>
+            </item>
+            <!-- su kien -->
+    <!--            <item code="QL_DANH_SACH_SU_KIEN">
+                    <name>event</name>
+                    <modules>event</modules>
+                    <permission_on_website>1</permission_on_website>
+                    <icon>fa fa-gift fa-fw</icon>
+                </item>-->
+            <!-- Phong Su anh -->
+            <item code="QL_DANH_SACH_PHONG_SU_ANH">
+                <name>photo gallery</name>
+                <modules>photo_gallery</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-camera fa-fw</icon>
+            </item>
+            <!-- quang cao -->
+            <item code="QL_DANH_SACH_QUANG_CAO">
+                <name>advertising</name>
+                <modules>advertising</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-camera fa-fw</icon>
+            </item>
+            <!-- banner -->
+            <item code="QL_DANH_SACH_BANNER">
+                <name>banner</name>
+                <modules>banner</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-image fa-fw</icon>
+            </item>
+            <!-- widget -->
+            <item code="QL_DANH_SACH_WIDGET">
+                <name>widget</name>
+                <modules>widget</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>glyphicon glyphicon-eye-open </icon>
+            </item>
+            <!-- media -->
+            <item code="QL_DANH_SACH_MEDIA">
+                <name>Media</name>
+                <modules>advmedia</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>glyphicon glyphicon-book</icon>
+            </item>
+            <!-- lien ket web -->
+            <item code="QL_DANH_SACH_WEBLINK">
+                <name>weblink</name>
+                <modules>weblink</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>glyphicon glyphicon-link </icon>
+            </item>
+            
+            <!-- Cơ quan ban hành -->
+<!--            <item code="QL_CO_QUAN_BAN_HANH">
+                <name>Cơ quan ban hành</name>
+                <modules>co_quan_ban_hanh</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-file-text-o fa-fw</icon>
+            </item>-->
+           
+            <!-- Lĩnh vực thống kê  -->
+<!--            <item code="QL_LINH_VUC_THONG_KE">
+                <name>Lĩnh vực thống kê</name>
+                <modules>linh_vuc_thong_ke</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-file-text-o fa-fw</icon>
+            </item>-->
+            <!-- Quản lý văn bản  -->
+<!--            <item code="QL_VAN_BAN">
+                <name>Văn bản chỉ đạo điều hành</name>
+                <modules>van_ban</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-file-text-o fa-fw </icon>
+            </item>-->
+        </category>
+
+        <!-- tuong tac cong dan -->
+        <category>
+            <category_name><![CDATA[readers interaction]]></category_name>
+            <!-- binh chon -->
+            <item code="QL_DANH_SACH_CUOC_THAM_DO_Y_KIEN">
+                <name>poll</name>
+                <modules>poll</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>glyphicon glyphicon-comment </icon>
+            </item>
+            <!-- gop y phan hoi -->
+            <item code="QL_GOP_Y_PHAN_HOI">
+                <name>feedback</name>
+                <modules>feedback</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-reply fa-fw</icon>
+            </item>
+            <!-- cau hoi cong dan -->
+            <item code="QL_CAU_HOI_DAP">
+                <name>citizens question</name>
+                <modules>citizens_question</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-question fa-fw</icon>
+            </item>
+            <!-- xac thuc ho so truc tuyen -->
+<!--            <item code="QL_DANH_DANH_HO_SO_NOP_TRUC_TUYEN">
+                <name>confirmed records</name>
+                <modules>internet_record</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-edit fa-fw</icon>
+            </item>-->
+            <!-- xac thuc ho so truc tuyen -->
+<!--            <item code="QL_CAU_HOI_KHAO_SAT">
+                <name>survey</name>
+                <modules>survey</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>glyphicon glyphicon-question-sign </icon>
+            </item>-->
+            <!-- tai khoan cong dan -->
+<!--            <item code="QL_DANH_SACH_TAI_KHOAN_CONG_DAN">
+                <name>citizen account</name>
+                <modules>citizen_account</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>glyphicon glyphicon-user </icon>
+            </item>-->
+        </category>
+
+        <!-- quan tri he thong -->
+        <category>
+            <category_name><![CDATA[system administration]]></category_name>
+            <!-- nguoi su dung -->
+            <item code="QL_USER">
+                <name>user</name>
+                <modules>user</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-user fa-fw</icon>
+            </item>
+            <!-- chuyen trang -->
+            <item code="QL_CHUYEN_TRANG">
+                <name>website</name>
+                <modules>website</modules>
+                <permission_on_website>1</permission_on_website>
+                <icon>fa fa-file-text fa-fw</icon>
+            </item>
+            <!--danh muc -->
+            <item code="QL_DANH_SACH_LISTTYPE">
+                <name>list type</name>
+                <modules>xlist</modules>
+                <param>dsp_all_listtype</param>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-pagelines fa-fw</icon>
+            </item>
+            <!-- doi tuong danh muc -->
+            <item code="QL_DANH_SACH_LIST">
+                <name>list</name>
+                <modules>xlist</modules>
+                <param>dsp_all_list</param>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-list fa-fw</icon>
+            </item>
+            <!-- quan ly he thong -->
+            <item code="QL_HE_THONG">
+                <name>system config</name>
+                <modules>system_config</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>glyphicon glyphicon-wrench </icon>
+            </item>
+            <!-- don vi truc thuoc -->
+<!--            <item code="QL_DON_VI_TRUC_THUOC">
+                <name>members</name>
+                <modules>member</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-building-o fa-fw</icon>
+            </item>-->
+            <!-- Thu tuc hanh chinh -->
+<!--            <item code="QL_DANH_SACH_THU_TUC_HANH_CHINH">
+                <name>record type</name>
+                <modules>record_type</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>glyphicon glyphicon-tag</icon>
+            </item>-->
+        </category>
+        <category>
+            <category_name><![CDATA[medical register]]></category_name>
+            <!-- nguoi su dung -->
+            <item code="QL_MEDICAL_REGISTER">
+                <name>medical register</name>
+                <modules>medical_register</modules>
+                <permission_on_website>0</permission_on_website>
+                <icon>fa fa-stethoscope fa-fw</icon>
+                <target>_blank</target>
+            </item>
+        </category>
+    </menus>
+    <!-- bao cao -->
+</root>

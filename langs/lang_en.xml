@@ -1,0 +1,11 @@
+<lang name="vi">
+        <!--Lastest new-->
+    <text name="Latest new" value="Latest new"/>
+    <text name="Most viewed" value="Most viewed"/>
+    <text name="Latest commment" value="Latest comment"/>
+    <text name="comment" value="Comment"/>
+    <text name="email" value="Email"/>
+     <text name="print" value="Print"/>
+     <text name="results" value="Results"/>
+      <text name="news" value="News"/>
+</lang>

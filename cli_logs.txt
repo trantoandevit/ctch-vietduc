@@ -1,0 +1,1185 @@
+09.05.2015 15:07 | Shutdown due to Swift_RfcComplianceException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderSet.php(71): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(300): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(86): Swift_Mime_SimpleMessage->addTo(NULL)
+#8 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(237): MailSender->SendMail(NULL, 'internet record')
+#9 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(31): internet_record_Model->do_confirm_record('38334')
+#10 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#11 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#12 {main}
+
+09.05.2015 15:09 | Shutdown due to Swift_RfcComplianceException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderSet.php(71): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(300): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(86): Swift_Mime_SimpleMessage->addTo(NULL)
+#8 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(240): MailSender->SendMail(NULL, 'internet record')
+#9 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(31): internet_record_Model->do_confirm_record('38334')
+#10 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#11 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#12 {main}
+
+09.05.2015 15:11 | Shutdown due to Swift_RfcComplianceException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderSet.php(71): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(300): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(86): Swift_Mime_SimpleMessage->addTo(NULL)
+#8 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(240): MailSender->SendMail(NULL, 'internet record')
+#9 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(31): internet_record_Model->do_confirm_record('38334')
+#10 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#11 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#12 {main}
+
+09.05.2015 15:11 | Shutdown due to Swift_RfcComplianceException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleHeaderSet.php(71): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(300): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mime\SimpleMessage.php(278): Swift_Mime_SimpleMessage->setTo(Array)
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(86): Swift_Mime_SimpleMessage->addTo(NULL)
+#8 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(240): MailSender->SendMail(NULL, 'internet record')
+#9 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(31): internet_record_Model->do_confirm_record('38334')
+#10 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#11 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#12 {main}
+
+09.05.2015 15:13 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(236): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(31): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:17 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(236): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(35): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:19 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(236): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(32): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:21 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(236): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(32): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:23 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(237): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(32): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:27 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(238): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(32): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:30 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(235): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(32): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:35 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(60): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(109): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(76): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(235): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(33): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:40 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(235): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(33): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:42 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(235): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(33): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 15:43 | Shutdown due to Swift_TransportException, trace:
+#0 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\swift\lib\classes\Swift\Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\mail_sender.php(87): Swift_Mailer->send(Object(Swift_Message))
+#4 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\internet_record\internet_record_Model.php(235): MailSender->SendMail('tranquang2807@g...', 'internet record')
+#5 F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php(33): internet_record_Model->do_confirm_record('38334')
+#6 F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\bootstrap.php(70): cli_Controller->run()
+#7 F:\Zend\www\demo\dvc-ha-tinh\public_html\cli.php(57): Bootstrap->__construct('admin/cli/run')
+#8 {main}
+
+09.05.2015 16:04 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0012409687042236</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0011332035064697</pre>-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.00082087516784668</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0013411045074463</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0014510154724121</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00076198577880859</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00075292587280273</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0014281272888184</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0014469623565674</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0007779598236084</pre>asdasd
+09.05.2015 16:07 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0012860298156738</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0012199878692627</pre>-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.00092506408691406</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0013589859008789</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.001471996307373</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00087094306945801</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00085997581481934</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0015871524810791</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00164794921875</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00099802017211914</pre>asdasd
+09.05.2015 16:09 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0014691352844238</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0011920928955078</pre>-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.0009009838104248</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0013370513916016</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0013830661773682</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0007319450378418</pre>asdasd
+09.05.2015 16:09 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0013809204101562</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0012001991271973</pre>-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.00092506408691406</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0013689994812012</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0017731189727783</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00080490112304688</pre>asdasd
+09.05.2015 16:10 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0016720294952393</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0011630058288574</pre>-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.001101016998291</pre>-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0012948513031006</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0014190673828125</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00088906288146973</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 39
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+
+Strict Standards: Non-static method Var_Dump_Renderer::factory() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 156
+<pre class="var_dump">array(4) {
+  email_exchange =&gt; <span class="type">string(23)</span> <span class="value">tranquang2807@gmail.com</span>
+  ws_location =&gt; <span class="type">string(51)</span> <span class="value">http://192.168.1.113/mot-cua-ha-tinh/r3/webservices</span>
+  ws_uri =&gt; <span class="type">string(15)</span> <span class="value">urn://tyler/res</span>
+  xml_string =&gt; <span class="type">string(519)</span> <span class="value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;data&gt;&lt;C_RECORD_TYPE_CODE&gt;TPH07A&lt;/C_RECORD_TYPE_CODE&gt;&lt;C_RECORD_NO&gt;TPH07A-CL-U9Q8U8&lt;/C_RECORD_NO&gt;&lt;C_RECEIVE_DATE&gt;&lt;/C_RECEIVE_DATE&gt;&lt;C_RETURN_PHONE_NUMBER&gt;01676201617&lt;/C_RETURN_PHONE_NUMBER&gt;&lt;C_RETURN_EMAIL&gt;hienthangtop@gmail.com&lt;/C_RETURN_EMAIL&gt;&lt;C_NOTE&gt;&lt;/C_NOTE&gt;&lt;C_CITIZEN_NAME&gt;Đỗ Thị Hiến&lt;/C_CITIZEN_NAME&gt;&lt;C_SPEC_CODE&gt;TP&lt;/C_SPEC_CODE&gt;&lt;C_CITIZEN_ADDRESS&gt;&lt;![CDATA[Ba Vì, Hà Nội]]&gt;&lt;/C_CITIZEN_ADDRESS&gt;&lt;ATTACHS&gt;&lt;file&gt;TPH07A-CL-U9Q8U8_554c2bce9dec8.docx&lt;/file&gt;&lt;/ATTACHS&gt;&lt;/data&gt;</span>
+}
+</pre>40
+09.05.2015 16:11 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0016798973083496</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0014851093292236</pre>-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.00085687637329102</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 31
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+
+Strict Standards: Non-static method Var_Dump_Renderer::factory() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 156
+<pre class="var_dump">object(internet_record_Model)#11 (3) {
+  db =&gt; object(ADODB_mysqli)#13 (91) {
+    databaseType =&gt; <span class="type">string(6)</span> <span class="value">mysqli</span>
+    dataProvider =&gt; <span class="type">string(5)</span> <span class="value">mysql</span>
+    hasInsertID =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasAffectedRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    metaTablesSQL =&gt; <span class="type">string(129)</span> <span class="value">SELECT TABLE_NAME, CASE WHEN TABLE_TYPE = 'VIEW' THEN 'V' ELSE 'T' END FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=SCHEMA()</span>
+    metaColumnsSQL =&gt; <span class="type">string(22)</span> <span class="value">SHOW COLUMNS FROM `%s`</span>
+    fmtTimeStamp =&gt; <span class="type">string(13)</span> <span class="value">'Y-m-d H:i:s'</span>
+    hasLimit =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasMoveFirst =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasGenID =&gt; <span class="type">bool</span> <span class="value">true</span>
+    isoDates =&gt; <span class="type">bool</span> <span class="value">true</span>
+    sysDate =&gt; <span class="type">string(9)</span> <span class="value">CURDATE()</span>
+    sysTimeStamp =&gt; <span class="type">string(5)</span> <span class="value">NOW()</span>
+    hasTransactions =&gt; <span class="type">bool</span> <span class="value">true</span>
+    forceNewConnect =&gt; <span class="type">bool</span> <span class="value">false</span>
+    poorAffectedRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    clientFlags =&gt; <span class="type">int</span> <span class="value">0</span>
+    substr =&gt; <span class="type">string(9)</span> <span class="value">substring</span>
+    port =&gt; <span class="type">bool</span> <span class="value">false</span>
+    socket =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _bindInputArray =&gt; <span class="type">bool</span> <span class="value">false</span>
+    nameQuote =&gt; <span class="type">string(1)</span> <span class="value">`</span>
+    optionFlags =&gt; array(1) {
+      0 =&gt; array(2) {
+        0 =&gt; <span class="type">int</span> <span class="value">5</span>
+        1 =&gt; <span class="type">int</span> <span class="value">0</span>
+      }
+    }
+    arrayClass =&gt; <span class="type">string(25)</span> <span class="value">ADORecordSet_array_mysqli</span>
+    multiQuery =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _genIDSQL =&gt; <span class="type">string(38)</span> <span class="value">update %s set id=LAST_INSERT_ID(id+1);</span>
+    _genSeqSQL =&gt; <span class="type">string(33)</span> <span class="value">create table %s (id int not null)</span>
+    _genSeqCountSQL =&gt; <span class="type">string(23)</span> <span class="value">select count(*) from %s</span>
+    _genSeq2SQL =&gt; <span class="type">string(26)</span> <span class="value">insert into %s values (%s)</span>
+    _dropSeqSQL =&gt; <span class="type">string(13)</span> <span class="value">drop table %s</span>
+    database =&gt; <span class="type">string(10)</span> <span class="value">dvc-hatinh</span>
+    host =&gt; <span class="type">string(13)</span> <span class="value">192.168.1.206</span>
+    user =&gt; <span class="type">string(11)</span> <span class="value">motcua_user</span>
+    password =&gt; <span class="type">string(10)</span> <span class="value">not stored</span>
+    debug =&gt; <span class="type">int</span> <span class="value">100</span>
+    maxblobsize =&gt; <span class="type">int</span> <span class="value">262144</span>
+    concat_operator =&gt; <span class="type">string(1)</span> <span class="value">+</span>
+    length =&gt; <span class="type">string(6)</span> <span class="value">length</span>
+    random =&gt; <span class="type">string(6)</span> <span class="value">rand()</span>
+    upperCase =&gt; <span class="type">string(5)</span> <span class="value">upper</span>
+    fmtDate =&gt; <span class="type">string(7)</span> <span class="value">'Y-m-d'</span>
+    true =&gt; <span class="type">string(1)</span> <span class="value">1</span>
+    false =&gt; <span class="type">string(1)</span> <span class="value">0</span>
+    replaceQuote =&gt; <span class="type">string(2)</span> <span class="value">\'</span>
+    charSet =&gt; <span class="type">bool</span> <span class="value">false</span>
+    metaDatabasesSQL =&gt; <span class="type">string(0)</span> <span class="value"></span>
+    uniqueOrderBy =&gt; <span class="type">bool</span> <span class="value">false</span>
+    emptyDate =&gt; <span class="type">string(6)</span> <span class="value">&amp;nbsp;</span>
+    emptyTimeStamp =&gt; <span class="type">string(6)</span> <span class="value">&amp;nbsp;</span>
+    lastInsID =&gt; <span class="type">bool</span> <span class="value">false</span>
+    hasTop =&gt; <span class="type">bool</span> <span class="value">false</span>
+    readOnly =&gt; <span class="type">bool</span> <span class="value">false</span>
+    genID =&gt; <span class="type">int</span> <span class="value">0</span>
+    raiseErrorFn =&gt; <span class="type">bool</span> <span class="value">false</span>
+    cacheSecs =&gt; <span class="type">int</span> <span class="value">86400</span>
+    memCache =&gt; <span class="type">bool</span> <span class="value">false</span>
+    memCacheHost =&gt; <span class="type">NULL</span>
+    memCachePort =&gt; <span class="type">int</span> <span class="value">11211</span>
+    memCacheCompress =&gt; <span class="type">bool</span> <span class="value">false</span>
+    sysUTimeStamp =&gt; <span class="type">bool</span> <span class="value">false</span>
+    noNullStrings =&gt; <span class="type">bool</span> <span class="value">false</span>
+    numCacheHits =&gt; <span class="type">int</span> <span class="value">0</span>
+    numCacheMisses =&gt; <span class="type">int</span> <span class="value">0</span>
+    pageExecuteCountRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    uniqueSort =&gt; <span class="type">bool</span> <span class="value">false</span>
+    leftOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    rightOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    ansiOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    autoRollback =&gt; <span class="type">bool</span> <span class="value">false</span>
+    fnExecute =&gt; <span class="type">bool</span> <span class="value">false</span>
+    fnCacheExecute =&gt; <span class="type">bool</span> <span class="value">false</span>
+    blobEncodeType =&gt; <span class="type">bool</span> <span class="value">false</span>
+    rsPrefix =&gt; <span class="type">string(13)</span> <span class="value">ADORecordSet_</span>
+    autoCommit =&gt; <span class="type">bool</span> <span class="value">true</span>
+    transOff =&gt; <span class="type">int</span> <span class="value">0</span>
+    transCnt =&gt; <span class="type">int</span> <span class="value">0</span>
+    fetchMode =&gt; <span class="type">int</span> <span class="value">2</span>
+    null2null =&gt; <span class="type">string(4)</span> <span class="value">null</span>
+    bulkBind =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _oldRaiseFn =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _transOK =&gt; <span class="type">NULL</span>
+    _connectionID =&gt; object(mysqli)#14 (19) {
+      affected_rows =&gt; <span class="type">int</span> <span class="value">-1</span>
+      client_info =&gt; <span class="type">string(79)</span> <span class="value">mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $</span>
+      client_version =&gt; <span class="type">int</span> <span class="value">50011</span>
+      connect_errno =&gt; <span class="type">int</span> <span class="value">0</span>
+      connect_error =&gt; <span class="type">NULL</span>
+      errno =&gt; <span class="type">int</span> <span class="value">0</span>
+      error =&gt; <span class="type">string(0)</span> <span class="value"></span>
+      error_list =&gt; <span class="type">array(0)</span>
+      field_count =&gt; <span class="type">int</span> <span class="value">0</span>
+      host_info =&gt; <span class="type">string(24)</span> <span class="value">192.168.1.206 via TCP/IP</span>
+      info =&gt; <span class="type">NULL</span>
+      insert_id =&gt; <span class="type">int</span> <span class="value">0</span>
+      server_info =&gt; <span class="type">string(6)</span> <span class="value">5.1.73</span>
+      server_version =&gt; <span class="type">int</span> <span class="value">50173</span>
+      stat =&gt; <span class="type">string(141)</span> <span class="value">Uptime: 459467  Threads: 4  Questions: 655233  Slow queries: 0  Opens: 39323  Flush tables: 1  Open tables: 64  Queries per second avg: 1.426</span>
+      sqlstate =&gt; <span class="type">string(5)</span> <span class="value">00000</span>
+      protocol_version =&gt; <span class="type">int</span> <span class="value">10</span>
+      thread_id =&gt; <span class="type">int</span> <span class="value">72261</span>
+      warning_count =&gt; <span class="type">int</span> <span class="value">0</span>
+    }
+    _errorMsg =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _errorCode =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _queryID =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _isPersistentConnection =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _evalAll =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _affected =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _logsql =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _transmode =&gt; <span class="type">string(0)</span> <span class="value"></span>
+    databaseName =&gt; <span class="type">string(10)</span> <span class="value">dvc-hatinh</span>
+  }
+  goback_url =&gt; <span class="type">NULL</span>
+  goforward_url =&gt; <span class="type">NULL</span>
+}
+</pre>32-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0017938613891602</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0015039443969727</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00084209442138672</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 41
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+<pre class="var_dump">array(4) {
+  email_exchange =&gt; <span class="type">string(23)</span> <span class="value">tranquang2807@gmail.com</span>
+  ws_location =&gt; <span class="type">string(51)</span> <span class="value">http://192.168.1.113/mot-cua-ha-tinh/r3/webservices</span>
+  ws_uri =&gt; <span class="type">string(15)</span> <span class="value">urn://tyler/res</span>
+  xml_string =&gt; <span class="type">string(519)</span> <span class="value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;data&gt;&lt;C_RECORD_TYPE_CODE&gt;TPH07A&lt;/C_RECORD_TYPE_CODE&gt;&lt;C_RECORD_NO&gt;TPH07A-CL-U9Q8U8&lt;/C_RECORD_NO&gt;&lt;C_RECEIVE_DATE&gt;&lt;/C_RECEIVE_DATE&gt;&lt;C_RETURN_PHONE_NUMBER&gt;01676201617&lt;/C_RETURN_PHONE_NUMBER&gt;&lt;C_RETURN_EMAIL&gt;hienthangtop@gmail.com&lt;/C_RETURN_EMAIL&gt;&lt;C_NOTE&gt;&lt;/C_NOTE&gt;&lt;C_CITIZEN_NAME&gt;Đỗ Thị Hiến&lt;/C_CITIZEN_NAME&gt;&lt;C_SPEC_CODE&gt;TP&lt;/C_SPEC_CODE&gt;&lt;C_CITIZEN_ADDRESS&gt;&lt;![CDATA[Ba Vì, Hà Nội]]&gt;&lt;/C_CITIZEN_ADDRESS&gt;&lt;ATTACHS&gt;&lt;file&gt;TPH07A-CL-U9Q8U8_554c2bce9dec8.docx&lt;/file&gt;&lt;/ATTACHS&gt;&lt;/data&gt;</span>
+}
+</pre>42
+09.05.2015 16:12 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0016860961914062</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0014369487762451</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 21
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+
+Strict Standards: Non-static method Var_Dump_Renderer::factory() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 156
+<pre class="var_dump"><span class="type">array(0)</span>
+</pre>22-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.00088191032409668</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 33
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+<pre class="var_dump">object(internet_record_Model)#11 (3) {
+  db =&gt; object(ADODB_mysqli)#15 (91) {
+    databaseType =&gt; <span class="type">string(6)</span> <span class="value">mysqli</span>
+    dataProvider =&gt; <span class="type">string(5)</span> <span class="value">mysql</span>
+    hasInsertID =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasAffectedRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    metaTablesSQL =&gt; <span class="type">string(129)</span> <span class="value">SELECT TABLE_NAME, CASE WHEN TABLE_TYPE = 'VIEW' THEN 'V' ELSE 'T' END FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=SCHEMA()</span>
+    metaColumnsSQL =&gt; <span class="type">string(22)</span> <span class="value">SHOW COLUMNS FROM `%s`</span>
+    fmtTimeStamp =&gt; <span class="type">string(13)</span> <span class="value">'Y-m-d H:i:s'</span>
+    hasLimit =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasMoveFirst =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasGenID =&gt; <span class="type">bool</span> <span class="value">true</span>
+    isoDates =&gt; <span class="type">bool</span> <span class="value">true</span>
+    sysDate =&gt; <span class="type">string(9)</span> <span class="value">CURDATE()</span>
+    sysTimeStamp =&gt; <span class="type">string(5)</span> <span class="value">NOW()</span>
+    hasTransactions =&gt; <span class="type">bool</span> <span class="value">true</span>
+    forceNewConnect =&gt; <span class="type">bool</span> <span class="value">false</span>
+    poorAffectedRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    clientFlags =&gt; <span class="type">int</span> <span class="value">0</span>
+    substr =&gt; <span class="type">string(9)</span> <span class="value">substring</span>
+    port =&gt; <span class="type">bool</span> <span class="value">false</span>
+    socket =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _bindInputArray =&gt; <span class="type">bool</span> <span class="value">false</span>
+    nameQuote =&gt; <span class="type">string(1)</span> <span class="value">`</span>
+    optionFlags =&gt; array(1) {
+      0 =&gt; array(2) {
+        0 =&gt; <span class="type">int</span> <span class="value">5</span>
+        1 =&gt; <span class="type">int</span> <span class="value">0</span>
+      }
+    }
+    arrayClass =&gt; <span class="type">string(25)</span> <span class="value">ADORecordSet_array_mysqli</span>
+    multiQuery =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _genIDSQL =&gt; <span class="type">string(38)</span> <span class="value">update %s set id=LAST_INSERT_ID(id+1);</span>
+    _genSeqSQL =&gt; <span class="type">string(33)</span> <span class="value">create table %s (id int not null)</span>
+    _genSeqCountSQL =&gt; <span class="type">string(23)</span> <span class="value">select count(*) from %s</span>
+    _genSeq2SQL =&gt; <span class="type">string(26)</span> <span class="value">insert into %s values (%s)</span>
+    _dropSeqSQL =&gt; <span class="type">string(13)</span> <span class="value">drop table %s</span>
+    database =&gt; <span class="type">string(10)</span> <span class="value">dvc-hatinh</span>
+    host =&gt; <span class="type">string(13)</span> <span class="value">192.168.1.206</span>
+    user =&gt; <span class="type">string(11)</span> <span class="value">motcua_user</span>
+    password =&gt; <span class="type">string(10)</span> <span class="value">not stored</span>
+    debug =&gt; <span class="type">int</span> <span class="value">100</span>
+    maxblobsize =&gt; <span class="type">int</span> <span class="value">262144</span>
+    concat_operator =&gt; <span class="type">string(1)</span> <span class="value">+</span>
+    length =&gt; <span class="type">string(6)</span> <span class="value">length</span>
+    random =&gt; <span class="type">string(6)</span> <span class="value">rand()</span>
+    upperCase =&gt; <span class="type">string(5)</span> <span class="value">upper</span>
+    fmtDate =&gt; <span class="type">string(7)</span> <span class="value">'Y-m-d'</span>
+    true =&gt; <span class="type">string(1)</span> <span class="value">1</span>
+    false =&gt; <span class="type">string(1)</span> <span class="value">0</span>
+    replaceQuote =&gt; <span class="type">string(2)</span> <span class="value">\'</span>
+    charSet =&gt; <span class="type">bool</span> <span class="value">false</span>
+    metaDatabasesSQL =&gt; <span class="type">string(0)</span> <span class="value"></span>
+    uniqueOrderBy =&gt; <span class="type">bool</span> <span class="value">false</span>
+    emptyDate =&gt; <span class="type">string(6)</span> <span class="value">&amp;nbsp;</span>
+    emptyTimeStamp =&gt; <span class="type">string(6)</span> <span class="value">&amp;nbsp;</span>
+    lastInsID =&gt; <span class="type">bool</span> <span class="value">false</span>
+    hasTop =&gt; <span class="type">bool</span> <span class="value">false</span>
+    readOnly =&gt; <span class="type">bool</span> <span class="value">false</span>
+    genID =&gt; <span class="type">int</span> <span class="value">0</span>
+    raiseErrorFn =&gt; <span class="type">bool</span> <span class="value">false</span>
+    cacheSecs =&gt; <span class="type">int</span> <span class="value">86400</span>
+    memCache =&gt; <span class="type">bool</span> <span class="value">false</span>
+    memCacheHost =&gt; <span class="type">NULL</span>
+    memCachePort =&gt; <span class="type">int</span> <span class="value">11211</span>
+    memCacheCompress =&gt; <span class="type">bool</span> <span class="value">false</span>
+    sysUTimeStamp =&gt; <span class="type">bool</span> <span class="value">false</span>
+    noNullStrings =&gt; <span class="type">bool</span> <span class="value">false</span>
+    numCacheHits =&gt; <span class="type">int</span> <span class="value">0</span>
+    numCacheMisses =&gt; <span class="type">int</span> <span class="value">0</span>
+    pageExecuteCountRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    uniqueSort =&gt; <span class="type">bool</span> <span class="value">false</span>
+    leftOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    rightOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    ansiOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    autoRollback =&gt; <span class="type">bool</span> <span class="value">false</span>
+    fnExecute =&gt; <span class="type">bool</span> <span class="value">false</span>
+    fnCacheExecute =&gt; <span class="type">bool</span> <span class="value">false</span>
+    blobEncodeType =&gt; <span class="type">bool</span> <span class="value">false</span>
+    rsPrefix =&gt; <span class="type">string(13)</span> <span class="value">ADORecordSet_</span>
+    autoCommit =&gt; <span class="type">bool</span> <span class="value">true</span>
+    transOff =&gt; <span class="type">int</span> <span class="value">0</span>
+    transCnt =&gt; <span class="type">int</span> <span class="value">0</span>
+    fetchMode =&gt; <span class="type">int</span> <span class="value">2</span>
+    null2null =&gt; <span class="type">string(4)</span> <span class="value">null</span>
+    bulkBind =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _oldRaiseFn =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _transOK =&gt; <span class="type">NULL</span>
+    _connectionID =&gt; object(mysqli)#16 (19) {
+      affected_rows =&gt; <span class="type">int</span> <span class="value">-1</span>
+      client_info =&gt; <span class="type">string(79)</span> <span class="value">mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $</span>
+      client_version =&gt; <span class="type">int</span> <span class="value">50011</span>
+      connect_errno =&gt; <span class="type">int</span> <span class="value">0</span>
+      connect_error =&gt; <span class="type">NULL</span>
+      errno =&gt; <span class="type">int</span> <span class="value">0</span>
+      error =&gt; <span class="type">string(0)</span> <span class="value"></span>
+      error_list =&gt; <span class="type">array(0)</span>
+      field_count =&gt; <span class="type">int</span> <span class="value">0</span>
+      host_info =&gt; <span class="type">string(24)</span> <span class="value">192.168.1.206 via TCP/IP</span>
+      info =&gt; <span class="type">NULL</span>
+      insert_id =&gt; <span class="type">int</span> <span class="value">0</span>
+      server_info =&gt; <span class="type">string(6)</span> <span class="value">5.1.73</span>
+      server_version =&gt; <span class="type">int</span> <span class="value">50173</span>
+      stat =&gt; <span class="type">string(141)</span> <span class="value">Uptime: 459532  Threads: 5  Questions: 655637  Slow queries: 0  Opens: 39323  Flush tables: 1  Open tables: 64  Queries per second avg: 1.426</span>
+      sqlstate =&gt; <span class="type">string(5)</span> <span class="value">00000</span>
+      protocol_version =&gt; <span class="type">int</span> <span class="value">10</span>
+      thread_id =&gt; <span class="type">int</span> <span class="value">72313</span>
+      warning_count =&gt; <span class="type">int</span> <span class="value">0</span>
+    }
+    _errorMsg =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _errorCode =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _queryID =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _isPersistentConnection =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _evalAll =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _affected =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _logsql =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _transmode =&gt; <span class="type">string(0)</span> <span class="value"></span>
+    databaseName =&gt; <span class="type">string(10)</span> <span class="value">dvc-hatinh</span>
+  }
+  goback_url =&gt; <span class="type">NULL</span>
+  goforward_url =&gt; <span class="type">NULL</span>
+}
+</pre>34-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0017590522766113</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0013589859008789</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00075411796569824</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 43
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+<pre class="var_dump">array(4) {
+  email_exchange =&gt; <span class="type">string(23)</span> <span class="value">tranquang2807@gmail.com</span>
+  ws_location =&gt; <span class="type">string(51)</span> <span class="value">http://192.168.1.113/mot-cua-ha-tinh/r3/webservices</span>
+  ws_uri =&gt; <span class="type">string(15)</span> <span class="value">urn://tyler/res</span>
+  xml_string =&gt; <span class="type">string(519)</span> <span class="value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;data&gt;&lt;C_RECORD_TYPE_CODE&gt;TPH07A&lt;/C_RECORD_TYPE_CODE&gt;&lt;C_RECORD_NO&gt;TPH07A-CL-U9Q8U8&lt;/C_RECORD_NO&gt;&lt;C_RECEIVE_DATE&gt;&lt;/C_RECEIVE_DATE&gt;&lt;C_RETURN_PHONE_NUMBER&gt;01676201617&lt;/C_RETURN_PHONE_NUMBER&gt;&lt;C_RETURN_EMAIL&gt;hienthangtop@gmail.com&lt;/C_RETURN_EMAIL&gt;&lt;C_NOTE&gt;&lt;/C_NOTE&gt;&lt;C_CITIZEN_NAME&gt;Đỗ Thị Hiến&lt;/C_CITIZEN_NAME&gt;&lt;C_SPEC_CODE&gt;TP&lt;/C_SPEC_CODE&gt;&lt;C_CITIZEN_ADDRESS&gt;&lt;![CDATA[Ba Vì, Hà Nội]]&gt;&lt;/C_CITIZEN_ADDRESS&gt;&lt;ATTACHS&gt;&lt;file&gt;TPH07A-CL-U9Q8U8_554c2bce9dec8.docx&lt;/file&gt;&lt;/ATTACHS&gt;&lt;/data&gt;</span>
+}
+</pre>44
+09.05.2015 16:13 | -----<hr>
+(mysqli): Select C_OPTION_VALUE From t_ps_option Where C_OPTION_KEY = 'SYSTEM_CONFIG' 
+   
+-----<hr>
+<pre>Time: 0.0012722015380859</pre>-----<hr>
+(mysqli): select C_CODE from t_cores_list 
+                        where FK_LISTTYPE = (Select PK_LISTTYPE from t_cores_listtype 
+                        where C_CODE = 'DM_NGON_NGU') 
+   
+-----<hr>
+<pre>Time: 0.0010859966278076</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 21
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+
+Strict Standards: Non-static method Var_Dump_Renderer::factory() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 156
+<pre class="var_dump"><span class="type">array(0)</span>
+</pre>22-----<hr>
+(mysqli): SELECT
+                    PK_RECORD
+                  FROM t_ps_record
+                  WHERE C_STATUS = 0 
+   
+-----<hr>
+<pre>Time: 0.00079703330993652</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 33
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+<pre class="var_dump">object(internet_record_Model)#11 (3) {
+  db =&gt; object(ADODB_mysqli)#15 (91) {
+    databaseType =&gt; <span class="type">string(6)</span> <span class="value">mysqli</span>
+    dataProvider =&gt; <span class="type">string(5)</span> <span class="value">mysql</span>
+    hasInsertID =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasAffectedRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    metaTablesSQL =&gt; <span class="type">string(129)</span> <span class="value">SELECT TABLE_NAME, CASE WHEN TABLE_TYPE = 'VIEW' THEN 'V' ELSE 'T' END FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=SCHEMA()</span>
+    metaColumnsSQL =&gt; <span class="type">string(22)</span> <span class="value">SHOW COLUMNS FROM `%s`</span>
+    fmtTimeStamp =&gt; <span class="type">string(13)</span> <span class="value">'Y-m-d H:i:s'</span>
+    hasLimit =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasMoveFirst =&gt; <span class="type">bool</span> <span class="value">true</span>
+    hasGenID =&gt; <span class="type">bool</span> <span class="value">true</span>
+    isoDates =&gt; <span class="type">bool</span> <span class="value">true</span>
+    sysDate =&gt; <span class="type">string(9)</span> <span class="value">CURDATE()</span>
+    sysTimeStamp =&gt; <span class="type">string(5)</span> <span class="value">NOW()</span>
+    hasTransactions =&gt; <span class="type">bool</span> <span class="value">true</span>
+    forceNewConnect =&gt; <span class="type">bool</span> <span class="value">false</span>
+    poorAffectedRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    clientFlags =&gt; <span class="type">int</span> <span class="value">0</span>
+    substr =&gt; <span class="type">string(9)</span> <span class="value">substring</span>
+    port =&gt; <span class="type">bool</span> <span class="value">false</span>
+    socket =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _bindInputArray =&gt; <span class="type">bool</span> <span class="value">false</span>
+    nameQuote =&gt; <span class="type">string(1)</span> <span class="value">`</span>
+    optionFlags =&gt; array(1) {
+      0 =&gt; array(2) {
+        0 =&gt; <span class="type">int</span> <span class="value">5</span>
+        1 =&gt; <span class="type">int</span> <span class="value">0</span>
+      }
+    }
+    arrayClass =&gt; <span class="type">string(25)</span> <span class="value">ADORecordSet_array_mysqli</span>
+    multiQuery =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _genIDSQL =&gt; <span class="type">string(38)</span> <span class="value">update %s set id=LAST_INSERT_ID(id+1);</span>
+    _genSeqSQL =&gt; <span class="type">string(33)</span> <span class="value">create table %s (id int not null)</span>
+    _genSeqCountSQL =&gt; <span class="type">string(23)</span> <span class="value">select count(*) from %s</span>
+    _genSeq2SQL =&gt; <span class="type">string(26)</span> <span class="value">insert into %s values (%s)</span>
+    _dropSeqSQL =&gt; <span class="type">string(13)</span> <span class="value">drop table %s</span>
+    database =&gt; <span class="type">string(10)</span> <span class="value">dvc-hatinh</span>
+    host =&gt; <span class="type">string(13)</span> <span class="value">192.168.1.206</span>
+    user =&gt; <span class="type">string(11)</span> <span class="value">motcua_user</span>
+    password =&gt; <span class="type">string(10)</span> <span class="value">not stored</span>
+    debug =&gt; <span class="type">int</span> <span class="value">100</span>
+    maxblobsize =&gt; <span class="type">int</span> <span class="value">262144</span>
+    concat_operator =&gt; <span class="type">string(1)</span> <span class="value">+</span>
+    length =&gt; <span class="type">string(6)</span> <span class="value">length</span>
+    random =&gt; <span class="type">string(6)</span> <span class="value">rand()</span>
+    upperCase =&gt; <span class="type">string(5)</span> <span class="value">upper</span>
+    fmtDate =&gt; <span class="type">string(7)</span> <span class="value">'Y-m-d'</span>
+    true =&gt; <span class="type">string(1)</span> <span class="value">1</span>
+    false =&gt; <span class="type">string(1)</span> <span class="value">0</span>
+    replaceQuote =&gt; <span class="type">string(2)</span> <span class="value">\'</span>
+    charSet =&gt; <span class="type">bool</span> <span class="value">false</span>
+    metaDatabasesSQL =&gt; <span class="type">string(0)</span> <span class="value"></span>
+    uniqueOrderBy =&gt; <span class="type">bool</span> <span class="value">false</span>
+    emptyDate =&gt; <span class="type">string(6)</span> <span class="value">&amp;nbsp;</span>
+    emptyTimeStamp =&gt; <span class="type">string(6)</span> <span class="value">&amp;nbsp;</span>
+    lastInsID =&gt; <span class="type">bool</span> <span class="value">false</span>
+    hasTop =&gt; <span class="type">bool</span> <span class="value">false</span>
+    readOnly =&gt; <span class="type">bool</span> <span class="value">false</span>
+    genID =&gt; <span class="type">int</span> <span class="value">0</span>
+    raiseErrorFn =&gt; <span class="type">bool</span> <span class="value">false</span>
+    cacheSecs =&gt; <span class="type">int</span> <span class="value">86400</span>
+    memCache =&gt; <span class="type">bool</span> <span class="value">false</span>
+    memCacheHost =&gt; <span class="type">NULL</span>
+    memCachePort =&gt; <span class="type">int</span> <span class="value">11211</span>
+    memCacheCompress =&gt; <span class="type">bool</span> <span class="value">false</span>
+    sysUTimeStamp =&gt; <span class="type">bool</span> <span class="value">false</span>
+    noNullStrings =&gt; <span class="type">bool</span> <span class="value">false</span>
+    numCacheHits =&gt; <span class="type">int</span> <span class="value">0</span>
+    numCacheMisses =&gt; <span class="type">int</span> <span class="value">0</span>
+    pageExecuteCountRows =&gt; <span class="type">bool</span> <span class="value">true</span>
+    uniqueSort =&gt; <span class="type">bool</span> <span class="value">false</span>
+    leftOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    rightOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    ansiOuter =&gt; <span class="type">bool</span> <span class="value">false</span>
+    autoRollback =&gt; <span class="type">bool</span> <span class="value">false</span>
+    fnExecute =&gt; <span class="type">bool</span> <span class="value">false</span>
+    fnCacheExecute =&gt; <span class="type">bool</span> <span class="value">false</span>
+    blobEncodeType =&gt; <span class="type">bool</span> <span class="value">false</span>
+    rsPrefix =&gt; <span class="type">string(13)</span> <span class="value">ADORecordSet_</span>
+    autoCommit =&gt; <span class="type">bool</span> <span class="value">true</span>
+    transOff =&gt; <span class="type">int</span> <span class="value">0</span>
+    transCnt =&gt; <span class="type">int</span> <span class="value">0</span>
+    fetchMode =&gt; <span class="type">int</span> <span class="value">2</span>
+    null2null =&gt; <span class="type">string(4)</span> <span class="value">null</span>
+    bulkBind =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _oldRaiseFn =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _transOK =&gt; <span class="type">NULL</span>
+    _connectionID =&gt; object(mysqli)#16 (19) {
+      affected_rows =&gt; <span class="type">int</span> <span class="value">-1</span>
+      client_info =&gt; <span class="type">string(79)</span> <span class="value">mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $</span>
+      client_version =&gt; <span class="type">int</span> <span class="value">50011</span>
+      connect_errno =&gt; <span class="type">int</span> <span class="value">0</span>
+      connect_error =&gt; <span class="type">NULL</span>
+      errno =&gt; <span class="type">int</span> <span class="value">0</span>
+      error =&gt; <span class="type">string(0)</span> <span class="value"></span>
+      error_list =&gt; <span class="type">array(0)</span>
+      field_count =&gt; <span class="type">int</span> <span class="value">0</span>
+      host_info =&gt; <span class="type">string(24)</span> <span class="value">192.168.1.206 via TCP/IP</span>
+      info =&gt; <span class="type">NULL</span>
+      insert_id =&gt; <span class="type">int</span> <span class="value">0</span>
+      server_info =&gt; <span class="type">string(6)</span> <span class="value">5.1.73</span>
+      server_version =&gt; <span class="type">int</span> <span class="value">50173</span>
+      stat =&gt; <span class="type">string(141)</span> <span class="value">Uptime: 459580  Threads: 4  Questions: 655951  Slow queries: 0  Opens: 39323  Flush tables: 1  Open tables: 64  Queries per second avg: 1.427</span>
+      sqlstate =&gt; <span class="type">string(5)</span> <span class="value">00000</span>
+      protocol_version =&gt; <span class="type">int</span> <span class="value">10</span>
+      thread_id =&gt; <span class="type">int</span> <span class="value">72355</span>
+      warning_count =&gt; <span class="type">int</span> <span class="value">0</span>
+    }
+    _errorMsg =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _errorCode =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _queryID =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _isPersistentConnection =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _evalAll =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _affected =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _logsql =&gt; <span class="type">bool</span> <span class="value">false</span>
+    _transmode =&gt; <span class="type">string(0)</span> <span class="value"></span>
+    databaseName =&gt; <span class="type">string(10)</span> <span class="value">dvc-hatinh</span>
+  }
+  goback_url =&gt; <span class="type">NULL</span>
+  goforward_url =&gt; <span class="type">NULL</span>
+}
+</pre>34-----<hr>
+(mysqli): SELECT
+                    C_EXCHANGE_EMAIL,
+                    ExtractValue(C_XML_DATA,'//item[@id="location"]/value') as C_LOCATION,
+                    ExtractValue(C_XML_DATA,'//item[@id="uri"]/value') AS C_URI
+                  FROM t_ps_member
+                  WHERE PK_MEMBER = (SELECT
+                                       FK_VILLAGE_ID
+                                     FROM t_ps_record
+                                     WHERE PK_RECORD = '38334') 
+   
+-----<hr>
+<pre>Time: 0.0014169216156006</pre>-----<hr>
+(mysqli): SELECT
+                    (SELECT
+                       C_CODE_MAPPING
+                     FROM t_ps_record_type_member
+                     WHERE FK_MEMBER = R.FK_VILLAGE_ID
+                         AND FK_RECORD_TYPE = R.FK_RECORD_TYPE
+                     LIMIT 1) AS C_RECORD_TYPE_CODE,
+                    R.C_RECORD_NO,
+                    R.C_CITIZEN_ADDRESS,
+                    R.C_RECEIVE_DATE,
+                    R.C_RETURN_PHONE_NUMBER,
+                    R.C_RETURN_EMAIL,
+                    R.C_NOTE,
+                    R.C_CITIZEN_NAME,
+                    RT.C_SPEC_CODE
+                  FROM t_ps_record R
+                    LEFT JOIN t_ps_record_type RT
+                      ON R.FK_RECORD_TYPE = RT.PK_RECORD_TYPE
+                  WHERE R.PK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.0015368461608887</pre>-----<hr>
+(mysqli): SELECT
+                    C_FILE_NAME
+                  FROM t_ps_record_file
+                  WHERE FK_RECORD = '38334' 
+   
+-----<hr>
+<pre>Time: 0.00079607963562012</pre>F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php
+Strict Standards: Non-static method Var_Dump::display() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\apps\admin\modules\cli\cli_Controller.php on line 43
+
+Strict Standards: Non-static method Var_Dump::singleton() should not be called statically, assuming $this from incompatible context in F:\Zend\www\demo\dvc-ha-tinh\public_html\libs\PEAR\Var_Dump.php on line 530
+<pre class="var_dump">array(4) {
+  email_exchange =&gt; <span class="type">string(23)</span> <span class="value">tranquang2807@gmail.com</span>
+  ws_location =&gt; <span class="type">string(51)</span> <span class="value">http://192.168.1.113/mot-cua-ha-tinh/r3/webservices</span>
+  ws_uri =&gt; <span class="type">string(15)</span> <span class="value">urn://tyler/res</span>
+  xml_string =&gt; <span class="type">string(519)</span> <span class="value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;data&gt;&lt;C_RECORD_TYPE_CODE&gt;TPH07A&lt;/C_RECORD_TYPE_CODE&gt;&lt;C_RECORD_NO&gt;TPH07A-CL-U9Q8U8&lt;/C_RECORD_NO&gt;&lt;C_RECEIVE_DATE&gt;&lt;/C_RECEIVE_DATE&gt;&lt;C_RETURN_PHONE_NUMBER&gt;01676201617&lt;/C_RETURN_PHONE_NUMBER&gt;&lt;C_RETURN_EMAIL&gt;hienthangtop@gmail.com&lt;/C_RETURN_EMAIL&gt;&lt;C_NOTE&gt;&lt;/C_NOTE&gt;&lt;C_CITIZEN_NAME&gt;Đỗ Thị Hiến&lt;/C_CITIZEN_NAME&gt;&lt;C_SPEC_CODE&gt;TP&lt;/C_SPEC_CODE&gt;&lt;C_CITIZEN_ADDRESS&gt;&lt;![CDATA[Ba Vì, Hà Nội]]&gt;&lt;/C_CITIZEN_ADDRESS&gt;&lt;ATTACHS&gt;&lt;file&gt;TPH07A-CL-U9Q8U8_554c2bce9dec8.docx&lt;/file&gt;&lt;/ATTACHS&gt;&lt;/data&gt;</span>
+}
+</pre>44

@@ -1,0 +1,182 @@
+.ql_head,.qr_head {
+    padding: 10px;
+    border-bottom:4px solid #005aab;
+    display:inline-block;
+    display:-webkit-inline-box;
+    /*    background: #0185fa;
+        background: -moz-linear-gradient(top, #0185fa 0%, #0a76d6 50%, #1168b5 100%);
+        background: -webkit-linear-gradient(top, #0185fa 0%,#0a76d6 50%,#1168b5 100%);
+        background: linear-gradient(to bottom, #0185fa 0%,#0a76d6 50%,#1168b5 100%);*/
+}
+.qrf_row input {
+    border-radius: 0px;
+}
+.pag_bottom {
+    padding: 20px 10px;
+}
+.ql_head>h3, .qr_head h3 {
+    /*    color: #ffffff;*/
+    margin: 0px;
+    font-size: 17px;
+    line-height: 15px;
+    font-family: "roboto";
+    text-transform: uppercase;
+    display:inline-block;
+    display:-webkit-inline-box;
+}
+.control-label span {
+    color: #FF1010;
+    font-weight: 100;
+}
+.content_question {
+    border: 1px solid #3796EA;
+    padding: 15px;
+    border-radius: 9px;
+}
+.q_right .qr_content {
+    height: 600px;
+    overflow: hidden;
+}
+.content_answer {
+    border: 1px solid #3796EA;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+.modal-body .detail {
+    padding: 0px 24px;
+}
+
+.modal-body .detail ul li h4 {
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+.modal-body .detail ul li span {
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+    font-weight: 600;
+    line-height: 26px;
+}
+.q_left,.q_right {
+    padding: 25px 15px;
+}
+.qri_search span {
+    padding-right: 21px;
+    color: gray;
+}
+.ql_content,.qr_content {
+    padding: 20px;
+    border: 1px solid #EBEBEB;
+}
+.qrf_row>label {
+    font-size: 13px;
+    line-height: 40px;
+    font-family: "roboto-regular";
+}
+.qrf_row_btn {
+    padding: 19px 0px 0px 0px;
+}
+.qrf_row textarea {
+    resize: none;
+    border-radius: 0px;
+}
+.qrf_row_btn button {
+    border-radius: 0px;
+    background: #0185fa;
+    border: 0px;
+    background: -moz-linear-gradient(top, #0185fa 0%, #0a76d6 50%, #1168b5 100%);
+    background: -webkit-linear-gradient(top, #0185fa 0%,#0a76d6 50%,#1168b5 100%);
+    background: linear-gradient(to bottom, #0185fa 0%,#0a76d6 50%,#1168b5 100%);
+}
+.qrc_box {
+    border: 1px solid #EBEBEB;
+    margin: 10px 0px;
+    padding: 7px 15px;
+    border-radius: 9px;
+    text-align: justify;
+}
+
+.qrcb_head h3 {
+    margin: 0px;
+    line-height: 27px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #544F4F;
+    font-family: "roboto", sans-serif;
+}
+
+.qrcb_info_top h6 {
+    margin: 0px;
+    color: gray;
+    font-family: "Open Sans Descended", sans-serif;
+}
+
+.qrcb_info_bottom h6 {
+    margin: 0px;
+    color: gray;
+    line-height: 16px;
+    font-family: "roboto-regular";
+}
+
+.row.qrcb_content p {
+    font-size: 13px;
+    text-indent: 20px;
+    margin: 0px;
+    padding: 3px 0px;
+    font-family: "roboto-regular", sans-serif;
+}
+.qrcb_view a {
+    color: #1287EA;
+    font-family: "roboto-regular";
+}
+.qrf_row img {
+    padding: 10px 0px;
+}
+.qrcb_view a:hover {
+    text-decoration: none;
+    color: #2929BF;
+}
+.qrcb_view h5 {
+    margin: 0px;
+    color: #337AB7;
+    font-size: 12px;
+    font-family: "Open Sans Descended", sans-serif;
+}
+.qrf_row_btn button:hover {
+    opacity: 0.7;
+    background: #0185fa;
+    background: -moz-linear-gradient(top, #0185fa 0%, #0a76d6 50%, #1168b5 100%);
+    background: -webkit-linear-gradient(top, #0185fa 0%,#0a76d6 50%,#1168b5 100%);
+    background: linear-gradient(to bottom, #0185fa 0%,#0a76d6 50%,#1168b5 100%);
+}
+.a_head {
+    font-style: italic;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+.slimScrollDiv {
+    padding: 10px 10px 0px 0px;
+}
+#list_cq {
+    height: 490px;
+}
+.recaptcha_theme_red #recaptcha_response_field {
+    line-height: 24px;
+    padding-left: 10px !important;
+    font-size: 14px;
+}
+@media (min-width: 1200px) {
+    .q_left .ql_content {
+        height: 600px;
+    }
+}
+@media screen and (max-width: 1400px)
+{
+    #recaptcha_widget_div {
+        transform: scale(0.84);
+        -webkit-transform: scale(0.84);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+}

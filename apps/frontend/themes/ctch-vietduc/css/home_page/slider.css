@@ -1,0 +1,35 @@
+.list_content
+{
+    padding:10px 15px;
+}
+.bx-wrapper
+{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border:none !important;
+    margin: 0 !important;
+}
+.bx-pager
+{
+    display:none;
+}
+.bx-wrapper .bx-controls-direction a
+{
+    margin-top:-30px;
+}
+.bx-prev
+{
+    margin-left:-10px;
+}
+.bx-next
+{
+    margin-right:-10px;
+}
+.bx-wrapper .bx-next
+{
+    opacity: 0.5;
+}
+.bx-wrapper .bx-prev
+{
+    opacity: 0.5;
+}
